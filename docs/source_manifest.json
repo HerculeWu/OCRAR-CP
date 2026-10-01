@@ -1,0 +1,177 @@
+[
+  {
+    "source": "scripts/crosscat/constants.py",
+    "release_path": "crosscat/constants.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "5f5a47b74a298ebf5b1e492e096a955679ea49201bf5ba1baf84b914ecfbbd40",
+    "release_sha256": "5f5a47b74a298ebf5b1e492e096a955679ea49201bf5ba1baf84b914ecfbbd40"
+  },
+  {
+    "source": "scripts/crosscat/cp_method.py",
+    "release_path": "crosscat/cp_method.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "29a6397a037be2770c83e5e4e56aa0e98b984c5d51cc962ddd31998cfa75d153",
+    "release_sha256": "29a6397a037be2770c83e5e4e56aa0e98b984c5d51cc962ddd31998cfa75d153"
+  },
+  {
+    "source": "scripts/crosscat/cp_membership.py",
+    "release_path": "crosscat/cp_membership.py",
+    "operation": "Copied unchanged except docstring correction: 5D ball is stricter than intersected sphere/ellipse",
+    "source_sha256": "4d27e82bbea1beea2c4af4f1ef211a342b62fa944f6825beebcc20feb3377afe",
+    "release_sha256": "1a681922b240accc86ea770df6cb51c5b27bcdbe1f566901967651e9fd1bf02c"
+  },
+  {
+    "source": "scripts/crosscat/cp_kinematics.py",
+    "release_path": "crosscat/cp_kinematics.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "18a64c3e61ec6716dc823cb7f818cf403fddb3ec69113ad2027a4a108c498a3a",
+    "release_sha256": "18a64c3e61ec6716dc823cb7f818cf403fddb3ec69113ad2027a4a108c498a3a"
+  },
+  {
+    "source": "scripts/crosscat/gaia_quality.py",
+    "release_path": "crosscat/gaia_quality.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "c09e1bb690eebaa8077674694addeb50e02a189f29f68061ca9b492196aa49f0",
+    "release_sha256": "c09e1bb690eebaa8077674694addeb50e02a189f29f68061ca9b492196aa49f0"
+  },
+  {
+    "source": "scripts/crosscat/rv_quality.py",
+    "release_path": "crosscat/rv_quality.py",
+    "operation": "Copied unchanged except docstring correction: strict RV conjunction is not the logical complement of variability",
+    "source_sha256": "de65672729b8229f2fcf11814fb7beefc99ec11a267d2a6acd8d80987fbfc6b5",
+    "release_sha256": "2a772958d25656bb1a88f1f3bb36d7138b979f0c38b8d6534b4737b7bb2afd30"
+  },
+  {
+    "source": "scripts/crosscat/parallax_zp.py",
+    "release_path": "crosscat/parallax_zp.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "d2553f42eaf6b5b4e67b22e81cbc0d755cbee8ea746bec69aadb9b6a0a093a3d",
+    "release_sha256": "d2553f42eaf6b5b4e67b22e81cbc0d755cbee8ea746bec69aadb9b6a0a093a3d"
+  },
+  {
+    "source": "scripts/crosscat/distance.py",
+    "release_path": "crosscat/distance.py",
+    "operation": "Extracted unchanged naive_distance/choose_distance; explicit offline catalogue lookup replaces automatic TAP/cache writes",
+    "source_sha256": "fef9695a00b6981b5d1d6e6c76ea6bf86b297301b014eb1b67b1cdc1129473bf",
+    "release_sha256": "9ecb59a43cc698bd97303f601ee379751d4bda220b8a1537d8bdfa7e1fc7f6f6"
+  },
+  {
+    "source": "scripts/cp_hyades_hr2024_sigma.py",
+    "release_path": "hyades.py",
+    "operation": "Extracted seed/fit/core/dispersion functions; missing RV columns now raise explicitly",
+    "source_sha256": "31bd714668e8c76ce387ae5838ebcc13e202a54252d29730c610f50cf264bec7",
+    "release_sha256": "c12e1d3af0d33f95e5af5505960dd376ba4bfcf0637a95f7a44c29a489be6c73"
+  },
+  {
+    "source": "scripts/50_cp_stage0a_synthetic.py",
+    "release_path": "synthetic.py",
+    "operation": "Numerical/plotting functions extracted; portable MathText unit labels, no legacy CLI/paths",
+    "source_sha256": "0e12042469fc80be5f79411eb1a5b428947e0567912905eed91ed7c26a4101f9",
+    "release_sha256": "0a612a0dab15a4a62197c2c2739beb47691b277e56d5a463a400d8e716d177ec"
+  },
+  {
+    "source": "scripts/crosscat/plotting.py",
+    "release_path": "crosscat/plotting.py",
+    "operation": "Extracted style; bundled DejaVu fonts and MathText replace external LaTeX",
+    "source_sha256": "07633ea5b772dc1aa375b6500e8fafbd80e80d8b74782160206049c060006cc0",
+    "release_sha256": "3b816345fad01768df4912966323acfa80d673466a30a76a3571cb7eb79c9468"
+  },
+  {
+    "source": "scripts/data/crosscat/gaia_cone/d3bd03867b228278.parquet",
+    "release_path": "data/hyades_cone_strict.parquet",
+    "operation": "Copied unchanged",
+    "source_sha256": "e9d21f4e491c451ef4d71d8f46096f3141ef7b816f9734a614401d0a4113c03c",
+    "release_sha256": "e9d21f4e491c451ef4d71d8f46096f3141ef7b816f9734a614401d0a4113c03c"
+  },
+  {
+    "source": "scripts/data/crosscat/gaia_cone/d3bd03867b228278.json",
+    "release_path": "data/hyades_cone_strict.json",
+    "operation": "Copied unchanged",
+    "source_sha256": "8210c7f4c805d6e65d59bbf43aa51a377c1ef8706eedb073c34d438163014f59",
+    "release_sha256": "8210c7f4c805d6e65d59bbf43aa51a377c1ef8706eedb073c34d438163014f59"
+  },
+  {
+    "source": "scripts/data/crosscat/gaia_cone/d55e06b4448e74d6.parquet",
+    "release_path": "data/hyades_cone_validation.parquet",
+    "operation": "Copied unchanged",
+    "source_sha256": "ac846a66c6d13738ac9ed02fd82047ddefe2dfd468230f86989c9ff11612bb57",
+    "release_sha256": "ac846a66c6d13738ac9ed02fd82047ddefe2dfd468230f86989c9ff11612bb57"
+  },
+  {
+    "source": "scripts/data/crosscat/gaia_cone/d55e06b4448e74d6.json",
+    "release_path": "data/hyades_cone_validation.json",
+    "operation": "Copied unchanged",
+    "source_sha256": "a27b0950c95ce4c2a5334f6b36935f89e45479d5662bf2dc4a83fd2d8861e1c9",
+    "release_sha256": "a27b0950c95ce4c2a5334f6b36935f89e45479d5662bf2dc4a83fd2d8861e1c9"
+  },
+  {
+    "source": "scripts/data/legacy_data/hr_catalogue/processed/hr2024_clusters.parquet",
+    "release_path": "data/hyades_anchor.json",
+    "operation": "Extracted only Hyades name, sky position, parallax, distance",
+    "source_sha256": "3be9c4a584700906aa9e4e689dc1122112795cdae92595b4ed5331fd8f97efbb",
+    "release_sha256": "60cb1bc35b2344d0c4a861194c2580b6a3f4c8b46fb633f4edb0a279b3e000b4"
+  },
+  {
+    "source": "scripts/data/crosscat/gaia_xmatch/dr3_1efc5fbdda67780f.parquet",
+    "release_path": "data/hyades_prior_members.parquet",
+    "operation": "495 matched Gaia HRD 2018 member IDs; merged RVs from validation cone and two-ID public Gaia supplement (2026-10-01); 322 finite RVs",
+    "source_sha256": "e46299cf76de1d508e1079bc04065988465350be601b08d5686bc59857628b89",
+    "release_sha256": "666c74cb83e594739436a05b5f6808c3a3d3eaa9c6f45e1668ebec73391aae05"
+  },
+  {
+    "source": "archive:OCRAR/tests/conftest.py",
+    "release_path": "tests/conftest.py",
+    "operation": "Original fixtures unchanged; added autouse network-blocking fixture",
+    "source_sha256": "75a2a265a11f5c08ff7cc3a486a61729f910856d55e081d2643a6a9c5ca9b4a8",
+    "release_sha256": "e9f5b53a03b8264105dd3c742e1718447ac325d497ea898b6cde0e5cd6dd3f99"
+  },
+  {
+    "source": "archive:OCRAR/tests/test_cp_method.py",
+    "release_path": "tests/test_cp_method.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "15bd3113c708ab584b2b623148ddf2ff6cd15bac08808c10171631ca9c6072c2",
+    "release_sha256": "15bd3113c708ab584b2b623148ddf2ff6cd15bac08808c10171631ca9c6072c2"
+  },
+  {
+    "source": "archive:OCRAR/tests/test_cp_membership.py",
+    "release_path": "tests/test_cp_membership.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "24b87246ccb5b52e88e5b55a3980d2623331dea759551e6288d4543c179efbbd",
+    "release_sha256": "24b87246ccb5b52e88e5b55a3980d2623331dea759551e6288d4543c179efbbd"
+  },
+  {
+    "source": "archive:OCRAR/tests/test_cp_kinematics.py",
+    "release_path": "tests/test_cp_kinematics.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "1015e62e4da41374f056eb4e3e0d9312232718b558fc3c7e60254c27531bfa03",
+    "release_sha256": "1015e62e4da41374f056eb4e3e0d9312232718b558fc3c7e60254c27531bfa03"
+  },
+  {
+    "source": "archive:OCRAR/tests/test_gaia_quality.py",
+    "release_path": "tests/test_gaia_quality.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "aa83a0ff9413d7a0e3020eb896e1cd9e862ce9f23d17b508979e81dfe12c9f16",
+    "release_sha256": "aa83a0ff9413d7a0e3020eb896e1cd9e862ce9f23d17b508979e81dfe12c9f16"
+  },
+  {
+    "source": "archive:OCRAR/tests/test_parallax_zp.py",
+    "release_path": "tests/test_parallax_zp.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "26ef62013f20f1680fdde01a416357ac419b5b0aee5c1a38cbeb3f532ea981fa",
+    "release_sha256": "26ef62013f20f1680fdde01a416357ac419b5b0aee5c1a38cbeb3f532ea981fa"
+  },
+  {
+    "source": "archive:OCRAR/tests/test_rv_quality.py",
+    "release_path": "tests/test_rv_quality.py",
+    "operation": "Copied unchanged",
+    "source_sha256": "eaa71c916bb53cad20448396a854436f224f25c8af74bd41d983dbcab7cda4e6",
+    "release_sha256": "eaa71c916bb53cad20448396a854436f224f25c8af74bd41d983dbcab7cda4e6"
+  },
+  {
+    "source": "scripts/hyades_contamination_core.py",
+    "source_sha256": "46cb5e72d3dacf8f8f9f5363de2141c00096d1f7a66290d0743f8b6018637006",
+    "release_path": "hyades.py",
+    "operation": "Extracted fetch_and_clean_gaia quality/ZP/distance body as clean_gaia; direct dataframe input, both published selection modes, no cache/network I/O",
+    "release_sha256": "c12e1d3af0d33f95e5af5505960dd376ba4bfcf0637a95f7a44c29a489be6c73"
+  }
+]

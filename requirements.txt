@@ -1,0 +1,9 @@
+# Python 3.11 or newer. See requirements-lock.txt for the tested Python 3.13 environment.
+numpy>=2.0,<3
+scipy>=1.13,<2
+pandas>=2.2,<4
+astropy>=6.1,<9
+matplotlib>=3.9,<4
+pyarrow>=17,<26
+gaiadr3-zeropoint==0.1.0
+pytest>=8,<10
