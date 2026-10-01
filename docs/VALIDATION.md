@@ -21,8 +21,13 @@
   fonts differ from the original manuscript figure; no active manuscript figure
   is overwritten by this release.
 
+- Cloned the public GitHub repository into a fresh temporary directory and ran
+  all 46 tests from outside that clone; all passed.
+- GitHub Actions run [36928357601](https://github.com/HerculeWu/OCRAR-CP/actions/runs/36928357601)
+  completed successfully on Ubuntu with Python 3.13, running both the test suite
+  and the complete reproduction command.
+
 This is reproducibility validation, not a new assessment of dynamical equilibrium,
 binary contamination, catalogue completeness, the CP uncertainty calibration or
 the gravitational-model significances. Known prose/implementation differences
-are explicit in METHODS.md. The GitHub workflow provides an additional Linux
-check; local tests alone do not establish that remote CI has completed.
+are explicit in METHODS.md.
